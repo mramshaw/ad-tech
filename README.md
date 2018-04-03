@@ -46,7 +46,7 @@ option might have been __Play__).]
 
 ## Specification
 
-I am including the [specification](../INSTRUCTIONS.md) I was given.
+I am including the [specification](./INSTRUCTIONS.md) I was given.
 
 ## How to build the service
 
