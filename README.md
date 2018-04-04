@@ -99,7 +99,6 @@ The procedure will be to create an analytic, and then query for that analytic.
 
 To create an analytic for the given timestamp:
 
-    ```
     $  curl -v -X POST 127.0.0.1:8080/analytics?timestamp=1514793600000\&user=Fred\&event=impression
     *   Trying 127.0.0.1...
     * Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
@@ -114,14 +113,12 @@ To create an analytic for the given timestamp:
     < 
     * Connection #0 to host 127.0.0.1 left intact
     $
-    ```
 
 #### Get analytics
 
 To get analytics for the current hour of the timestamp, up
 to and including the actual millisecond of the timestamp:
 
-    ```
     $ curl -v 127.0.0.1:8080/analytics?timestamp=1514793600000
     *   Trying 127.0.0.1...
     * Connected to 127.0.0.1 (127.0.0.1) port 8080 (#0)
@@ -141,4 +138,3 @@ to and including the actual millisecond of the timestamp:
     impressions,1
     * Connection #0 to host 127.0.0.1 left intact
     $
-    ```
