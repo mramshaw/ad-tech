@@ -138,3 +138,18 @@ to and including the actual millisecond of the timestamp:
     impressions,1
     * Connection #0 to host 127.0.0.1 left intact
     $
+
+## To Do
+
+As instructed, this project was meant to be an __MVP__ (Minimum Viable Product), meaning
+a proof-of-concept, spike or demo suitable for showing to a client. It was never meant to
+be a complete and finished product. Given the vagueness of the specification, it was
+meant to be a jumping-off point for clarifying the actual requirements.
+
+Even so, there are still a few things that - given time - I would like to rewrite and/or
+clean up. A partial list follows.
+
+- [ ] Write the same functionality in Golang and carry out a head-to-head benchmark
+- [ ] Rewrite the persistence portion (possibly in [ScalikeJDBC](http://scalikejdbc.org/))
+- [ ] Rewrite the code which makes use of mutable DateTime objects to be more functional in style
+- [ ] Rewrite the test suite `AnalyticsServiceSuite.scala` to be more functional in style
